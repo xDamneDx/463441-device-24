@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  white-space: nowrap;
+  border: 0;
+  clip-path: inset(100%);
+}
+
+/* Слайдеры на главной. */
+
+.product-slide,
+.service-slide {
+  display: none;
+}
+
+#product-radio-1:checked ~ .product-first  ,
+#product-radio-2:checked ~ .product-second  ,
+#product-radio-3:checked ~ .product-third,
+#service-radio-1:checked ~ .service-first  ,
+#service-radio-2:checked ~ .service-second  ,
+#service-radio-3:checked ~ .service-third {
+  display: block;
+}
+
