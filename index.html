@@ -8,7 +8,8 @@
 </head>
 
 <body>
-  <header class="header">
+
+  <header class="header wrapper">
     <form class="search-form" action="https://echo.htmlacademy.ru" method="get">
       <input class="search-input" type="search" placeholder="Поиск по сайту" required>
       <button class="search-button" type="submit"><span class="visually-hidden">Найти</span></button>
@@ -50,7 +51,7 @@
 
     <h1 class="visually-hidden">Интернет-магазин гаджетов для гиков "DEVICE".</h1>
 
-    <section class="product-slider">
+    <section class="product-slider wrapper">
 
       <h2 class="visually-hidden">Слайдер с самыми горячими предложениями</h2>
 
@@ -65,24 +66,28 @@
       </div>
 
       <div class="product-slide product-first">
-        <img src="img/slider-1.png" width="384" height="486" alt="Разные состояния палки для селфи">
-        <span class="slide-number">01</span>
-        <h2 class="slide-header">Делай селфи, как Бен Стиллер!</h2>
-        <p class="slide-description">Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!)
-          метров длиной и весом всего 5 килограмм.</p>
-        <a class="button" href="#">Подробнее</a>
-        <table>
-          <tr>
-            <td>Длина палки</td>
-            <td>Вес палки</td>
-            <td>Материал</td>
-          </tr>
-          <tr>
-            <td>8,5 м</td>
-            <td>5 кг</td>
-            <td>Карбон</td>
-          </tr>
-        </table>
+        <div class="product-slide-picture">
+          <img src="img/slider-1.png" width="384" height="486" alt="Разные состояния палки для селфи">
+        </div>
+        <div class="product-slide-info">
+          <span class="slide-number">01</span>
+          <h2 class="slide-header">Делай селфи,<br> как Бен Стиллер!</h2>
+          <p class="slide-description">Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!)
+            метров длиной и весом всего 5 килограмм.</p>
+          <a class="button" href="#">Подробнее</a>
+          <table class="slide-table">
+            <tr class="spec-type">
+              <td >Длина палки</td>
+              <td>Вес палки</td>
+              <td>Материал</td>
+            </tr>
+            <tr class="spec-data">
+              <td>8,5 м</td>
+              <td>5 кг</td>
+              <td>Карбон</td>
+            </tr>
+          </table>
+        </div>
       </div>
 
       <div class="product-slide product-second">
@@ -122,7 +127,7 @@
       </div>
 
     </section>
-    <section class="popular-products">
+    <section class="popular-products wrapper">
 
       <h2 class="visually-hidden">Популярные товары</h2>
 
@@ -181,7 +186,7 @@
       </div>
 
     </section>
-    <section class="popular-brands">
+    <section class="popular-brands wrapper">
 
       <h2 class="visually-hidden">Популярные производители</h2>
 
@@ -203,7 +208,7 @@
 
     </section>
 
-    <div class="index-columns">
+    <div class="index-columns wrapper">
 
       <section class="about-us">
         <h2 class="about-us-header">О нас</h2>
@@ -285,16 +290,17 @@
     <form class="write-us-form" action="https://echo.htmlacademy.ru" method="GET">
 
       <p class="write-us-form-item">
-        <label for="write-us-name">Ваше имя:</label>
-        <input type="text" name="name" id="write-us-name" placeholder="Имя Фамилия">
-
-        <label for="write-us-email">Ваше e-mail:</label>
-        <input type="email" name="e-mail" id="write-us-email" placeholder="email@example.com">
+        <label class="write-us-label" for="write-us-name">Ваше имя:</label>
+        <input class="write-us-input" type="text" name="name" id="write-us-name" placeholder="Имя Фамилия">
+      </p>
+      <p class="write-us-form-item">
+        <label class="write-us-label" for="write-us-email">Ваше e-mail:</label>
+        <input class="write-us-input" type="email" name="e-mail" id="write-us-email" placeholder="email@example.com">
       </p>
 
       <p class="write-us-form-item">
-        <label for="write-us-text">Текст письма:</label>
-        <textarea name="" id="write-us-text" cols="30" rows="10" placeholder="В свободной форме"></textarea>
+        <label class="write-us-label" for="write-us-text">Текст письма:</label>
+        <textarea class="write-us-input write-us-textarea" name="" id="write-us-text" cols="30" rows="10" placeholder="В свободной форме"></textarea>
       </p>
 
       <button class="button" type="submit">Отправить</button>
