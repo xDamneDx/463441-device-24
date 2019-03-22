@@ -9,52 +9,58 @@
 </head>
 
 <body>
-  <header class="header wrapper">
-    <div class="header-container">
-      <p class="header-logo">
-        <a class="header-logo-link">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 164 35" height="35" width="164">
-            <path d="m0.35 0.7v33.6h13.532a15.723 15.723 0 0 0 11.72-4.824 16.464 16.464 0 0 0 4.712-11.976 16.465 16.465 0 0 0-4.712-11.976 15.723 15.723 0 0 0-11.72-4.824zm7.733 26.208v-18.819h5.8a8.648 8.648 0 0 1 6.5 2.568 9.412 9.412 0 0 1 2.489 6.84 9.41 9.41 0 0 1-2.489 6.84 8.646 8.646 0 0 1-6.5 2.568h-5.8zm34.8-5.952h12.082v-7.3h-12.086v-5.567h13.291v-7.389h-21.024v33.6h21.265v-7.392h-13.532v-5.952zm36.343 13.344 11.019-33.6h-8.458l-7.491 24.72-7.491-24.72h-8.457l11.019 33.6zm14.4 0h7.733v-33.6h-7.733zm38.615-1.416a15.514 15.514 0 0 0 6.041-5.688l-6.67-3.84a7.488 7.488 0 0 1-3.165 3.024 9.874 9.874 0 0 1-4.664 1.1 9.594 9.594 0 0 1-7.177-2.736 9.907 9.907 0 0 1-2.682-7.248 9.908 9.908 0 0 1 2.682-7.248 9.594 9.594 0 0 1 7.177-2.736 9.914 9.914 0 0 1 4.64 1.08 7.6 7.6 0 0 1 3.189 3.048l6.67-3.84a15.881 15.881 0 0 0-6.09-5.688 17.419 17.419 0 0 0-8.409-2.088 17.12 17.12 0 0 0-17.592 17.472 17.12 17.12 0 0 0 17.589 17.476 17.519 17.519 0 0 0 8.458-2.088zm17.881-11.928h12.082v-7.3h-12.085v-5.567h13.29v-7.389h-21.022v33.6h21.264v-7.392h-13.532v-5.952z" />
-          </svg>
-        </a>
-      </p>
-      <form class="search-form" action="https://echo.htmlacademy.ru" method="get">
-        <label for="search-input"><span class="visually-hidden">Поиск:</span></label>
-        <input class="search-input" id="search-input" type="text" placeholder="Поиск по сайту" required>
-        <button class="search-button" type="submit">Найти</button>
-      </form>
-      <div class="user-navigation header-user-navigation">
-        <ul class="user-navigation-list">
-          <li class="user-navigation-item login-item"><a class="user-navigation-link login-link" href="#">Войти</a></li>
-          <li class="user-navigation-item compare-item"><a class="user-navigation-link compare-link" href="#">Сравнить</a></li>
-          <li class="user-navigation-item cart-item"><a class="user-navigation-link cart-link" href="#">Корзина</a></li>
-        </ul>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header-container">
+        <p class="header-logo">
+          <a class="header-logo-link">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 164 35" height="35" width="164">
+              <path
+                d="m0.35 0.7v33.6h13.532a15.723 15.723 0 0 0 11.72-4.824 16.464 16.464 0 0 0 4.712-11.976 16.465 16.465 0 0 0-4.712-11.976 15.723 15.723 0 0 0-11.72-4.824zm7.733 26.208v-18.819h5.8a8.648 8.648 0 0 1 6.5 2.568 9.412 9.412 0 0 1 2.489 6.84 9.41 9.41 0 0 1-2.489 6.84 8.646 8.646 0 0 1-6.5 2.568h-5.8zm34.8-5.952h12.082v-7.3h-12.086v-5.567h13.291v-7.389h-21.024v33.6h21.265v-7.392h-13.532v-5.952zm36.343 13.344 11.019-33.6h-8.458l-7.491 24.72-7.491-24.72h-8.457l11.019 33.6zm14.4 0h7.733v-33.6h-7.733zm38.615-1.416a15.514 15.514 0 0 0 6.041-5.688l-6.67-3.84a7.488 7.488 0 0 1-3.165 3.024 9.874 9.874 0 0 1-4.664 1.1 9.594 9.594 0 0 1-7.177-2.736 9.907 9.907 0 0 1-2.682-7.248 9.908 9.908 0 0 1 2.682-7.248 9.594 9.594 0 0 1 7.177-2.736 9.914 9.914 0 0 1 4.64 1.08 7.6 7.6 0 0 1 3.189 3.048l6.67-3.84a15.881 15.881 0 0 0-6.09-5.688 17.419 17.419 0 0 0-8.409-2.088 17.12 17.12 0 0 0-17.592 17.472 17.12 17.12 0 0 0 17.589 17.476 17.519 17.519 0 0 0 8.458-2.088zm17.881-11.928h12.082v-7.3h-12.085v-5.567h13.29v-7.389h-21.022v33.6h21.264v-7.392h-13.532v-5.952z" />
+            </svg>
+          </a>
+        </p>
+        <form class="search-form" action="https://echo.htmlacademy.ru" method="get">
+          <label for="search-input"><span class="visually-hidden">Поиск:</span></label>
+          <input class="search-input" id="search-input" type="text" placeholder="Поиск по сайту" required>
+          <button class="search-button" type="submit">Найти</button>
+        </form>
+        <div class="user-navigation header-user-navigation">
+          <ul class="user-navigation-list">
+            <li class="user-navigation-item login-item"><a class="user-navigation-link login-link" href="#">Войти</a>
+            </li>
+            <li class="user-navigation-item compare-item"><a class="user-navigation-link compare-link"
+                href="#">Сравнить</a></li>
+            <li class="user-navigation-item cart-item"><a class="user-navigation-link cart-link" href="#">Корзина</a>
+            </li>
+          </ul>
+        </div>
+        <nav class="main-navigation">
+          <ul class="main-navigation-list">
+            <li class="main-navigation-item main-navigation-catalog"><a href="catalog.html"
+                class="main-navigation-link  with-sub">Каталог
+                товаров</a>
+              <ul class="catalog-navigation-list">
+                <li class="sub-navigation-item"><a class="sub-navigation-link" href="#">Виртуальная реальность</a></li>
+                <li class="sub-navigation-item"><a class="sub-navigation-link" href="#">Моноподы для селфи</a></li>
+                <li class="sub-navigation-item"><a class="sub-navigation-link" href="#">Экшн-камеры</a></li>
+                <li class="sub-navigation-item"><a class="sub-navigation-link" href="#">Фитнес-браслеты</a></li>
+                <li class="sub-navigation-item"><a class="sub-navigation-link" href="#">Умные часы</a></li>
+                <li class="sub-navigation-item"><a class="sub-navigation-link" href="#">Квадрокоптеры</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <div class="services-navigation">
+          <ul class="services-navigation-list">
+            <li class="services-navigation-item"><a class="services-navigation-link" href="#">Доставка</a></li>
+            <li class="services-navigation-item"><a class="services-navigation-link" href="#">Гарантия</a></li>
+            <li class="services-navigation-item"><a class="services-navigation-link" href="#">Контакты</a></li>
+          </ul>
+        </div>
       </div>
-      <nav class="main-navigation">
-        <ul class="main-navigation-list">
-          <li class="main-navigation-item main-navigation-catalog"><a href="catalog.html" class="main-navigation-link  with-sub"
-              href="#">Каталог
-              товаров</a>
-            <ul class="catalog-navigation-list">
-              <li class="sub-navigation-item"><a class="sub-navigation-link" href="#">Виртуальная реальность</a></li>
-              <li class="sub-navigation-item"><a class="sub-navigation-link" href="#">Моноподы для селфи</a></li>
-              <li class="sub-navigation-item"><a class="sub-navigation-link" href="#">Экшн-камеры</a></li>
-              <li class="sub-navigation-item"><a class="sub-navigation-link" href="#">Фитнес-браслеты</a></li>
-              <li class="sub-navigation-item"><a class="sub-navigation-link" href="#">Умные часы</a></li>
-              <li class="sub-navigation-item"><a class="sub-navigation-link" href="#">Квадрокоптеры</a></li>
-            </ul>
-          </li>
-        </ul>
-      </nav>
-      <div class="services-navigation">
-        <ul class="services-navigation-list">
-          <li class="services-navigation-item"><a class="services-navigation-link" href="#">Доставка</a></li>
-          <li class="services-navigation-item"><a class="services-navigation-link" href="#">Гарантия</a></li>
-          <li class="services-navigation-item"><a class="services-navigation-link" href="#">Контакты</a></li>
-        </ul>
-      </div>
-    </div>
-  </header>
+    </header>
+  </div>
   <main class="main">
     <h1 class="visually-hidden">Интернет-магазин гаджетов для гиков "DEVICE".</h1>
     <section class="product-slider wrapper">
@@ -179,9 +185,12 @@
         <input class="visually-hidden" type="radio" name="service-radio" id="service-radio-2">
         <input class="visually-hidden" type="radio" name="service-radio" id="service-radio-3">
         <div class="services-radio-nav">
-          <label class="service-radio-btn service-radio-btn-1" for="service-radio-1"><a class="button services-button services-button-1">Доставка</a></label>
-          <label class="service-radio-btn service-radio-btn-2" for="service-radio-2"><a class="button services-button services-button-2">Гарантия</a></label>
-          <label class="service-radio-btn service-radio-btn-3" for="service-radio-3"><a class="button services-button services-button-3">Кредит</a></label>
+          <label class="service-radio-btn service-radio-btn-1" for="service-radio-1"><a
+              class="button services-button services-button-1">Доставка</a></label>
+          <label class="service-radio-btn service-radio-btn-2" for="service-radio-2"><a
+              class="button services-button services-button-2">Гарантия</a></label>
+          <label class="service-radio-btn service-radio-btn-3" for="service-radio-3"><a
+              class="button services-button services-button-3">Кредит</a></label>
         </div>
         <div class="service-slide service-first">
           <h3 class="service-header">Доставка</h3>
@@ -205,22 +214,23 @@
       <ul class="popular-brands-list">
         <li class="popular-brands-item">
           <a href="#" class="popular-brands-link">
-            <img class="popular-brand-logo popular-dji-logo" src="img/logo-1-clr.jpg" alt="Логотип фирмы 'DJI'">
+            <img class="popular-brand-logo popular-dji-logo" width="260" height="100" src="img/logo-1-clr.jpg" alt="Логотип фирмы 'DJI'">
           </a>
         </li>
         <li class="popular-brands-item">
           <a href="#" class="popular-brands-link">
-            <img class="popular-brand-logo popular-spgadgets-logo" src="img/logo-2-clr.jpg" alt="Логотип фирмы 'SP Gadgets'">
+            <img class="popular-brand-logo popular-spgadgets-logo" width="260" height="100" src="img/logo-2-clr.jpg"
+              alt="Логотип фирмы 'SP Gadgets'">
           </a>
         </li>
         <li class="popular-brands-item">
           <a href="#" class="popular-brands-link">
-            <img class="popular-brand-logo popular-gopro-logo" src="img/logo-3-clr.jpg" alt="Логотип фирмы 'GoPro'">
+            <img class="popular-brand-logo popular-gopro-logo" width="260" height="100" src="img/logo-3-clr.jpg" alt="Логотип фирмы 'GoPro'">
           </a>
         </li>
         <li class="popular-brands-item">
           <a href="#" class="popular-brands-link">
-            <img class="popular-brand-logo popular-vive-logo" src="img/logo-4-clr.jpg" alt="Логотип фирмы 'VIVE'">
+            <img class="popular-brand-logo popular-vive-logo" width="260" height="100" src="img/logo-4-clr.jpg" alt="Логотип фирмы 'VIVE'">
           </a>
         </li>
       </ul>
@@ -245,52 +255,64 @@
         <a class="map-small">
           <img src="img/map-small.jpg" width="560" height="222" alt="Офис компании по адресу ул. Строителей 15, Москва">
         </a>
-        <a class="button contacts-btn" href="#">Напишите нам</a>
+        <a class="button contacts-btn" href="write-us.html">Напишите нам</a>
       </section>
     </div>
   </main>
   <footer class="footer">
-    <div class="footer-container wrapper">
-      <div class="footer-top-row">
-        <a class="footer-logo">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 164 35" height="35" width="164">
-            <path d="m0.35 0.7v33.6h13.532a15.723 15.723 0 0 0 11.72-4.824 16.464 16.464 0 0 0 4.712-11.976 16.465 16.465 0 0 0-4.712-11.976 15.723 15.723 0 0 0-11.72-4.824zm7.733 26.208v-18.819h5.8a8.648 8.648 0 0 1 6.5 2.568 9.412 9.412 0 0 1 2.489 6.84 9.41 9.41 0 0 1-2.489 6.84 8.646 8.646 0 0 1-6.5 2.568h-5.8zm34.8-5.952h12.082v-7.3h-12.086v-5.567h13.291v-7.389h-21.024v33.6h21.265v-7.392h-13.532v-5.952zm36.343 13.344 11.019-33.6h-8.458l-7.491 24.72-7.491-24.72h-8.457l11.019 33.6zm14.4 0h7.733v-33.6h-7.733zm38.615-1.416a15.514 15.514 0 0 0 6.041-5.688l-6.67-3.84a7.488 7.488 0 0 1-3.165 3.024 9.874 9.874 0 0 1-4.664 1.1 9.594 9.594 0 0 1-7.177-2.736 9.907 9.907 0 0 1-2.682-7.248 9.908 9.908 0 0 1 2.682-7.248 9.594 9.594 0 0 1 7.177-2.736 9.914 9.914 0 0 1 4.64 1.08 7.6 7.6 0 0 1 3.189 3.048l6.67-3.84a15.881 15.881 0 0 0-6.09-5.688 17.419 17.419 0 0 0-8.409-2.088 17.12 17.12 0 0 0-17.592 17.472 17.12 17.12 0 0 0 17.589 17.476 17.519 17.519 0 0 0 8.458-2.088zm17.881-11.928h12.082v-7.3h-12.085v-5.567h13.29v-7.389h-21.022v33.6h21.264v-7.392h-13.532v-5.952z"
-              fill="#ffc600" />
-          </svg>
-        </a>
-        <div class="user-navigation footer-user-navigation">
-          <ul class="user-navigation-list">
-            <li class="user-navigation-item login-item"><a class="user-navigation-link login-link" href="#">Войти</a></li>
-            <li class="user-navigation-item compare-item"><a class="user-navigation-link compare-link" href="#">Сравнить</a></li>
-            <li class="user-navigation-item cart-item"><a class="user-navigation-link cart-link" href="#">Корзина</a></li>
-          </ul>
+    <div class="wrapper">
+      <div class="footer-container">
+        <div class="footer-top-row">
+          <a class="footer-logo">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 164 35" height="35" width="164">
+              <path
+                d="m0.35 0.7v33.6h13.532a15.723 15.723 0 0 0 11.72-4.824 16.464 16.464 0 0 0 4.712-11.976 16.465 16.465 0 0 0-4.712-11.976 15.723 15.723 0 0 0-11.72-4.824zm7.733 26.208v-18.819h5.8a8.648 8.648 0 0 1 6.5 2.568 9.412 9.412 0 0 1 2.489 6.84 9.41 9.41 0 0 1-2.489 6.84 8.646 8.646 0 0 1-6.5 2.568h-5.8zm34.8-5.952h12.082v-7.3h-12.086v-5.567h13.291v-7.389h-21.024v33.6h21.265v-7.392h-13.532v-5.952zm36.343 13.344 11.019-33.6h-8.458l-7.491 24.72-7.491-24.72h-8.457l11.019 33.6zm14.4 0h7.733v-33.6h-7.733zm38.615-1.416a15.514 15.514 0 0 0 6.041-5.688l-6.67-3.84a7.488 7.488 0 0 1-3.165 3.024 9.874 9.874 0 0 1-4.664 1.1 9.594 9.594 0 0 1-7.177-2.736 9.907 9.907 0 0 1-2.682-7.248 9.908 9.908 0 0 1 2.682-7.248 9.594 9.594 0 0 1 7.177-2.736 9.914 9.914 0 0 1 4.64 1.08 7.6 7.6 0 0 1 3.189 3.048l6.67-3.84a15.881 15.881 0 0 0-6.09-5.688 17.419 17.419 0 0 0-8.409-2.088 17.12 17.12 0 0 0-17.592 17.472 17.12 17.12 0 0 0 17.589 17.476 17.519 17.519 0 0 0 8.458-2.088zm17.881-11.928h12.082v-7.3h-12.085v-5.567h13.29v-7.389h-21.022v33.6h21.264v-7.392h-13.532v-5.952z"
+                fill="#ffc600" />
+            </svg>
+          </a>
+          <div class="user-navigation footer-user-navigation">
+            <ul class="user-navigation-list">
+              <li class="user-navigation-item login-item"><a class="user-navigation-link login-link" href="#">Войти</a>
+              </li>
+              <li class="user-navigation-item compare-item"><a class="user-navigation-link compare-link"
+                  href="#">Сравнить</a></li>
+              <li class="user-navigation-item cart-item"><a class="user-navigation-link cart-link" href="#">Корзина</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <div class="footer-middle-row">
-        <address class="footer-address">г. Москва, ул. Строителей, 15 </address>
-        <div class="services-navigation footer-services-navigation">
-          <ul class="services-navigation-list">
-            <li class="services-navigation-item"><a class="services-navigation-link" href="#">Доставка</a></li>
-            <li class="services-navigation-item"><a class="services-navigation-link" href="#">Гарантия</a></li>
-            <li class="services-navigation-item"><a class="services-navigation-link" href="#">Контакты</a></li>
-          </ul>
+        <div class="footer-middle-row">
+          <address class="footer-address">г. Москва, ул. Строителей, 15 </address>
+          <div class="services-navigation footer-services-navigation">
+            <ul class="services-navigation-list">
+              <li class="services-navigation-item"><a class="services-navigation-link" href="#">Доставка</a></li>
+              <li class="services-navigation-item"><a class="services-navigation-link" href="#">Гарантия</a></li>
+              <li class="services-navigation-item"><a class="services-navigation-link" href="#">Контакты</a></li>
+            </ul>
+          </div>
+          <a class="footel-tel" href="tel:+74954959595">Тел.: +7 (495) 495-95-95</a>
         </div>
-        <a class="footel-tel" href="tel:+74954959595">Тел.: +7 (495) 495-95-95</a>
-      </div>
-      <div class="footer-bottom-row">
-        <ul class="social-list">
-          <li class="social-item"><a class="social-button facebook" href="#"><span class="visually-hidden">Facebook</span></a></li>
-          <li class="social-item"><a class="social-button instagram" href="#"><span class="visually-hidden">Instagram</span></a></li>
-          <li class="social-item"><a class="social-button twitter" href="#"><span class="visually-hidden">Twitter</span></a></li>
-        </ul>
-        <a class="html-academy-link" href="https://htmlacademy.ru/intensive/htmlcss">
-          <svg class="html-academy-logo" height="35" viewBox="0 0 27 35" width="27" xmlns="http://www.w3.org/2000/svg">
-            <path d="m13.62.017-.148-.017-13.472 1.412v24.661l13.473 8.017 13.43-7.99.042-.025v-24.663zm11.399 12.11-11.524-6.793-.001-.104-.087.05-.088-.056v.109l-11.394 6.785v-8.971l11.548-1.212 11.547 1.212v8.98zm-11.614-5.34 11.518 6.713-4.479 2.64-7.093-4.221-.014 1.415 5.904 3.513-.86.507-5.03-2.992-.014 1.415 3.827 2.275-.782.523-3.031-1.787-.014 1.413 1.853 1.091-1.8 1.081-11.356-6.751zm-11.48 8.34 11.411 6.791.016 1.044-7.942-4.728-.015 1.416 7.979 4.795.018 1.076-7.973-4.74-.013 1.414 8.021 4.822.046.025 8.143-4.872-.011-5.177 3.415-2.036v10.021l-11.548 6.872-11.547-6.871z"
-              fill="#ffc600" /></svg>
-        </a>
+        <div class="footer-bottom-row">
+          <ul class="social-list">
+            <li class="social-item"><a class="social-button facebook" href="#"><span
+                  class="visually-hidden">Facebook</span></a></li>
+            <li class="social-item"><a class="social-button instagram" href="#"><span
+                  class="visually-hidden">Instagram</span></a></li>
+            <li class="social-item"><a class="social-button twitter" href="#"><span
+                  class="visually-hidden">Twitter</span></a></li>
+          </ul>
+          <a class="html-academy-link" href="https://htmlacademy.ru/intensive/htmlcss">
+            <svg class="html-academy-logo" height="35" viewBox="0 0 27 35" width="27"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="m13.62.017-.148-.017-13.472 1.412v24.661l13.473 8.017 13.43-7.99.042-.025v-24.663zm11.399 12.11-11.524-6.793-.001-.104-.087.05-.088-.056v.109l-11.394 6.785v-8.971l11.548-1.212 11.547 1.212v8.98zm-11.614-5.34 11.518 6.713-4.479 2.64-7.093-4.221-.014 1.415 5.904 3.513-.86.507-5.03-2.992-.014 1.415 3.827 2.275-.782.523-3.031-1.787-.014 1.413 1.853 1.091-1.8 1.081-11.356-6.751zm-11.48 8.34 11.411 6.791.016 1.044-7.942-4.728-.015 1.416 7.979 4.795.018 1.076-7.973-4.74-.013 1.414 8.021 4.822.046.025 8.143-4.872-.011-5.177 3.415-2.036v10.021l-11.548 6.872-11.547-6.871z"
+                fill="#ffc600" /></svg>
+          </a>
+        </div>
       </div>
     </div>
   </footer>
+  <div class="modal-overlay"></div>
   <section class="modal modal-write-us">
     <h2 class="visually-hidden">Напишите нам</h2>
     <form class="write-us-form" action="https://echo.htmlacademy.ru" method="GET">
@@ -304,7 +326,8 @@
       </p>
       <p class="write-us-form-item">
         <label class="write-us-label" for="write-us-text">Текст письма:</label>
-        <textarea class="write-us-input write-us-textarea" name="" id="write-us-text" cols="30" rows="10" placeholder="В свободной форме"></textarea>
+        <textarea class="write-us-input write-us-textarea" name="write-us-text" id="write-us-text" cols="30" rows="10"
+          placeholder="В свободной форме"></textarea>
       </p>
       <button class="button write-us-button" type="submit">Отправить</button>
     </form>
@@ -312,11 +335,15 @@
   </section>
   <section class="modal modal-map">
     <h2 class="visually-hidden">Как до нас добраться</h2>
+    <iframe class="modal-map-iframe"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.1125488779976!2d37.52742931592807!3d55.687030980535816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54cf65f5c8955%3A0x694710ccd55501e!2z0YPQuy4g0KHRgtGA0L7QuNGC0LXQu9C10LksIDE1LCDQnNC-0YHQutCy0LAsINCg0L7RgdGB0LjRjywgMTE5MzEx!5e0!3m2!1sru!2sua!4v1553256100825"
+      width="960" height="559" allowfullscreen></iframe>
     <p class="modal-map-image">
       <img src="img/map-big.jpg" width="960" height="559" alt="Офис компании по адресу ул. Строителей 15, Москва">
     </p>
     <button class="modal-close" type="button">Закрыть</button>
   </section>
+  <script src="js/script.min.js"></script>
 </body>
 
 </html>
