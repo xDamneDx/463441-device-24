@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <title>HTML Academy: Девайс</title>
   <link href="css/normalize.min.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -22,7 +22,7 @@
         </p>
         <form class="search-form" action="https://echo.htmlacademy.ru" method="get">
           <label for="search-input"><span class="visually-hidden">Поиск:</span></label>
-          <input class="search-input" id="search-input" type="text" placeholder="Поиск по сайту" required>
+          <input class="search-input" id="search-input" type="search" placeholder="Поиск по сайту" required>
           <button class="search-button" type="submit">Найти</button>
         </form>
         <div class="user-navigation header-user-navigation">
@@ -37,12 +37,12 @@
         </div>
         <nav class="main-navigation">
           <ul class="main-navigation-list">
-            <li class="main-navigation-item main-navigation-catalog"><a href="catalog.html"
-                class="main-navigation-link  with-sub">Каталог
+            <li class="main-navigation-item main-navigation-catalog"><a class="main-navigation-link with-sub">Каталог
                 товаров</a>
               <ul class="catalog-navigation-list">
                 <li class="sub-navigation-item"><a class="sub-navigation-link" href="#">Виртуальная реальность</a></li>
-                <li class="sub-navigation-item"><a class="sub-navigation-link" href="#">Моноподы для селфи</a></li>
+                <li class="sub-navigation-item"><a class="sub-navigation-link" href="catalog.html">Моноподы для
+                    селфи</a></li>
                 <li class="sub-navigation-item"><a class="sub-navigation-link" href="#">Экшн-камеры</a></li>
                 <li class="sub-navigation-item"><a class="sub-navigation-link" href="#">Фитнес-браслеты</a></li>
                 <li class="sub-navigation-item"><a class="sub-navigation-link" href="#">Умные часы</a></li>
@@ -152,8 +152,9 @@
           </a>
         </li>
         <li class="popular-products-item">
-          <a class="popular-product-link" href="#">
-            <h3 class="popular-product-title popular-product-monopod">Моноподы для селфи</h3>
+          <a class="popular-product-link" href="catalog.html">
+            <h3 class="popular-product-title popular-product-monopod">Моноподы
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; для селфи</h3>
           </a>
         </li>
         <li class="popular-products-item">
@@ -213,24 +214,25 @@
       <h2 class="visually-hidden">Популярные производители</h2>
       <ul class="popular-brands-list">
         <li class="popular-brands-item">
-          <a href="#" class="popular-brands-link">
-            <img class="popular-brand-logo popular-dji-logo" width="260" height="100" src="img/logo-1-clr.jpg" alt="Логотип фирмы 'DJI'">
+          <a href="#" class="popular-brands-link popular-dji-logo">
+            <img class="popular-brand-logo " width="260" height="100" src="img/logo-1-bw.jpg" alt="Логотип фирмы 'DJI'">
           </a>
         </li>
         <li class="popular-brands-item">
-          <a href="#" class="popular-brands-link">
-            <img class="popular-brand-logo popular-spgadgets-logo" width="260" height="100" src="img/logo-2-clr.jpg"
+          <a href="#" class="popular-brands-link popular-spgadgets-logo">
+            <img class="popular-brand-logo" width="260" height="100" src="img/logo-2-bw.jpg"
               alt="Логотип фирмы 'SP Gadgets'">
           </a>
         </li>
         <li class="popular-brands-item">
-          <a href="#" class="popular-brands-link">
-            <img class="popular-brand-logo popular-gopro-logo" width="260" height="100" src="img/logo-3-clr.jpg" alt="Логотип фирмы 'GoPro'">
+          <a href="#" class="popular-brands-link popular-gopro-logo">
+            <img class="popular-brand-logo" width="260" height="100" src="img/logo-3-bw.jpg"
+              alt="Логотип фирмы 'GoPro'">
           </a>
         </li>
         <li class="popular-brands-item">
-          <a href="#" class="popular-brands-link">
-            <img class="popular-brand-logo popular-vive-logo" width="260" height="100" src="img/logo-4-clr.jpg" alt="Логотип фирмы 'VIVE'">
+          <a href="#" class="popular-brands-link popular-vive-logo">
+            <img class="popular-brand-logo" width="260" height="100" src="img/logo-4-bw.jpg" alt="Логотип фирмы 'VIVE'">
           </a>
         </li>
       </ul>
@@ -252,7 +254,8 @@
         <h2 class="contacts-header">Контакты</h2>
         <p class="contacts-desc">Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить
           работоспособность покупки. Всякое бывает.</p>
-        <a class="map-small">
+        <a href="https://www.google.com/maps?ll=55.687031,37.529618&z=17&t=m&hl=ru-RU&gl=UA&mapclient=embed&q=%D1%83%D0%BB.+%D0%A1%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%B9,+15+%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F+119311"
+          class="map-small">
           <img src="img/map-small.jpg" width="560" height="222" alt="Офис компании по адресу ул. Строителей 15, Москва">
         </a>
         <a class="button contacts-btn" href="write-us.html">Напишите нам</a>
